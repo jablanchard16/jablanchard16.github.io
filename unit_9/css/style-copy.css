@@ -111,12 +111,12 @@ section {
 }
 
 .banksblue {
-    max-width: 250px;
+  max-width: 250px;
   float: left;
 }
 
 .bryantwhite {
-    max-width: 250px;
+  max-width: 250px;
   float: left;
 }
 
@@ -147,32 +147,7 @@ section {
   float: left;
 }
 
-#throwbacks2 {
-  width: 100%;
-  text-align: center;
-  
-}
 
-
-.yao-ming2 {
-  max-width: 250px;
-  float: left;
-}
-
-.mutumbo2 {
-  max-width: 250px;
-  float: left;
-}
-
-.mcgrady2 {
-    max-width: 250px;
-  float: left;
-}
-
-.vince-carter2 {
-    max-width: 250px;
-  float: left;
-}
 
     @media only screen and (max-width: 800px) {
         nav {
