@@ -92,13 +92,20 @@ section {
   float: right;
 }
 
+hr {
+    width: 85%;
+    height: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+
+}
 
 #cubs {
   text-align: center;
   width: 100%;
   
 }
-
 
 .bryantblue {
   max-width: 250px;
