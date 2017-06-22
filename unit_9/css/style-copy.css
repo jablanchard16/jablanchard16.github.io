@@ -92,15 +92,6 @@ section {
   float: right;
 }
 
-hr {
-    width:85%;
-    height: 3px;
-    margin-top: 10px;
-    background: white;
-    border-style: solid;
-    border-color: white;
-
-}
 
 #cubs {
   text-align: center;
@@ -109,23 +100,23 @@ hr {
 }
 
 
-.bryant-blue {
+.bryantblue {
   text-align: center;
   max-width: 250px;
   float: left;
 }
 
-.rizzo-blue {
+.rizzoblue {
   max-width: 250px;
   float: left;
 }
 
-.banks-blue {
+.banksblue {
     max-width: 250px;
   float: left;
 }
 
-.bryant-white {
+.bryantwhite {
     max-width: 250px;
   float: left;
 }
