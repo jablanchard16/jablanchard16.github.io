@@ -1,0 +1,210 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: 8px 0;
+  color: #febe45;
+  border-bottom-color: #febe45;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:left;
+  font-size: 1em;
+  width: 50%;
+  height: 100px;
+  outline: 2px solid #222222;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  background: white;
+}
+
+div {
+  padding: 32px;
+}
+
+nav {
+  font-size: 1.5em;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 18px 0;
+  margin-top: 40px;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 100%;
+  height: 30%;
+}
+
+#hero {
+  background: #febe45;
+}
+
+section {
+  background: #0d4263;
+  color: white;
+  overflow: auto;
+}
+
+#about {
+  font-size: 1.8em;
+  width: 40%;
+  display: inline-block;
+}
+
+#services {
+  font-size: 1.8em;
+  width: 40%;
+  float: right;
+}
+
+hr {
+    width:85%;
+    height: 3px;
+    margin-top: 10px;
+    background: white;
+    border-style: solid;
+    border-color: white;
+
+}
+
+#cubs {
+  width: 100%;
+  text-align: center;
+  
+}
+
+
+.bryant-blue {
+  text-align: center;
+  max-width: 250px;
+  float: left;
+}
+
+.rizzo-blue {
+  max-width: 250px;
+  float: left;
+}
+
+.banks-blue {
+    max-width: 250px;
+  float: left;
+}
+
+.bryant-white {
+    max-width: 250px;
+  float: left;
+}
+
+#throwbacks {
+  width: 100%;
+  text-align: center;
+  
+}
+
+
+.yao-ming {
+  max-width: 250px;
+  float: left;
+}
+
+.mutumbo {
+  max-width: 250px;
+  float: left;
+}
+
+.mcgrady {
+    max-width: 250px;
+  float: left;
+}
+
+.vince-carter {
+    max-width: 250px;
+  float: left;
+}
+    @media only screen and (max-width: 800px) {
+        nav {
+            float: none;
+        }   
+        nav {
+            float: none;
+        }
+        nav a {
+            margin: 0 1.6em .75em 0;
+        }
+        img {
+            width: 320px;
+        }
+        #about {
+            font-size: 1.4em;
+            line-height: 1.8em;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        h1, nav {
+          display: block;
+          text-align: center;
+        }
+      h2 {
+        font-size: 1em;
+        display: inline;
+      }
+      p, ul {
+        margin: 1.8em .6em 0;
+      }
+      li {
+        width: 80%;
+        outline-width: .5em;
+        padding: .5em;
+        height: 2em;
+        line-height: 2em;
+      }
+      nav a {
+        margin: 0 1em 1em;
+      }
+      img {
+        width: 230px;
+      }
+      section, div {
+        width: 100%;
+        padding: .6em;
+      }
+      #services {
+        float: none;
+        font-size: 1.4em;
+      }
+    }
